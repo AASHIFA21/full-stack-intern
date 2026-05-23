@@ -25,7 +25,7 @@ if age>=18:
         elif avrg>=60:\
             print("eligible for arts")
         else:
-            print("not eligible for anything")'''
+            print("not eligible for anything")
 name=input("enter the name")
 age=int(input("enter the age:"))
 experience=int(input("enter the experience:"))
@@ -50,7 +50,19 @@ if age>=18:
     else:
             print("invalid designation")
 else:
-            print("not eligible to work")
+    print("not eligible to work")'''
+#hotel menu with bill
+name=input("enter the name")
+phno=int(input("enter the no:"))
+sapadu=input("enter the sapadu for(breakfast/lunch/dinner):")
+if sapadu=="breakfast":
+    print("idly,dosa,vadai available")
+elif sapadu=="lunch":
+    print("meals avalaible")
+elif sapadu=="dinner":
+    print("snacks available")
+else:
+    print("invalid option")
 
                          
             
