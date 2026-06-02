@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+body{
+    height:100vh;
+    display:flex;
+}
+
+.left{
+    flex:1;
+    background:linear-gradient(135deg,#6c63ff,#4facfe);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-size:30px;
+    font-weight:bold;
+}
+
+.right{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#fff;
+}
+
+.login-box{
+    width:320px;
+}
+
+.login-box h2{
+    margin-bottom:20px;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ddd;
+    border-radius:8px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:#6c63ff;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+.social{
+    display:flex;
+    gap:10px;
+    margin-top:15px;
+}
+
+.social button{
+    background:#f1f1f1;
+    color:#333;
+}
+</style>
+</head>
+<body>
+
+<div class="left">
+    Welcome Back!
+</div>
+
+<div class="right">
+    <div class="login-box">
+        <h2>Login</h2>
+
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+
+        <button>Sign In</button>
+
+        <div class="social">
+            <button>Google</button>
+            <button>Facebook</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
